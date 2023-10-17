@@ -84,6 +84,7 @@
 /* <!-------password box customize---------> */
 
 #message-box{
+    display: none;
     background: #f2f2f3;
     color: #000;
     position: relative;
@@ -92,4 +93,24 @@
     right: -420px;
     padding: 20px;
     margin-top: 10px;
+    border-radius: 10px;
+}
+
+.valid{
+    color: green;
+}
+
+.valid:before{
+    position: relative;
+    left: -10px;
+    content: "✔";
+}
+
+.invalid{
+    color: red;
+}
+.invalid:before{
+    position: relative;
+    left: -10px;
+    content: "✖";
 }

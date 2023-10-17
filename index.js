@@ -4,3 +4,7 @@ let capital = document.getElementById("capital");
 let number = document.getElementById("number");
 let length = document.getElementById("length");
 
+
+passInput.onfocus = function() {
+    document.getElementById("message-box").style.display = "block";
+};
