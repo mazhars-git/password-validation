@@ -10,6 +10,7 @@
     padding: 40px;
     border-radius: 20px;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    position: absolute;
 }
 .form-container .form-icon{
     color: #ac40ab;
@@ -78,4 +79,17 @@
     letter-spacing: 3px;
     box-shadow: none;
     outline: none;
+}
+
+/* <!-------password box customize---------> */
+
+#message-box{
+    background: #f2f2f3;
+    color: #000;
+    position: relative;
+    content: '';
+    top: 110px;
+    right: -420px;
+    padding: 20px;
+    margin-top: 10px;
 }
