@@ -13,7 +13,7 @@
     position: absolute;
 }
 .form-container .form-icon{
-    color: #ac40ab;
+    color: #57d9fa;
     font-size: 55px;
     text-align: center;
     line-height: 100px;
@@ -24,7 +24,7 @@
     box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px #fff;
 }
 .form-container .title{
-    color: #ac40ab;
+    color: #57d9fa;
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
@@ -61,14 +61,14 @@
     font-size: 14px;
 }
 .form-container .form-horizontal .btn{
-    color: #000;
-    background-color: #ac40ab;
+    color: #7b7b7c;
+    background-color: #57d9fa;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     width: 100%;
-    padding: 12px 15px 11px;
-    border-radius: 20px;
+    padding: 13px 11px;
+    border-radius: 30px;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
     border: none;
     transition: all 0.5s ease 0s;
