@@ -14,3 +14,25 @@ passInput.onblur = function() {
     document.getElementById("message-box").style.display = "none";
 };
 
+//when enter any input in password field
+
+passInput.onkeyup = function(){
+    //validate lowercase letters input
+
+    let lowerCaseLetters = /[a-z]/g;
+
+    //validate upper case letters input
+
+    let upperCaseLetters = /[A-Z]/g;
+
+    //validate numbers input
+
+    let numbers = /[0-9]/g;
+
+    //validate length
+
+    
+
+    
+    
+}
